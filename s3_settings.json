@@ -1,0 +1,56 @@
+{
+  "AccountId": "061051259785",
+  "AccountPublicAccessBlockConfiguration": {
+    "BlockPublicAcls": false,
+    "IgnorePublicAcls": true,
+    "BlockPublicPolicy": false,
+    "RestrictPublicBuckets": false
+  },
+  "AccountStatus": "OFF",
+  "Buckets": [
+    {
+      "Name": "cyberlence-private-bucket-1",
+      "CreationDate": "2026-01-05T06:27:42+00:00",
+      "PublicAccessBlockConfiguration": {
+        "BlockPublicAcls": true,
+        "IgnorePublicAcls": true,
+        "BlockPublicPolicy": true,
+        "RestrictPublicBuckets": true
+      },
+      "Status": "ON"
+    },
+    {
+      "Name": "cyberlence-private-bucket-2",
+      "CreationDate": "2026-01-05T06:28:10+00:00",
+      "PublicAccessBlockConfiguration": {
+        "BlockPublicAcls": true,
+        "IgnorePublicAcls": true,
+        "BlockPublicPolicy": true,
+        "RestrictPublicBuckets": true
+      },
+      "Status": "ON"
+    },
+    {
+      "Name": "cyberlence-public-bucket-1",
+      "CreationDate": "2026-01-05T06:26:58+00:00",
+      "PublicAccessBlockConfiguration": {
+        "BlockPublicAcls": false,
+        "IgnorePublicAcls": false,
+        "BlockPublicPolicy": false,
+        "RestrictPublicBuckets": false
+      },
+      "Status": "OFF"
+    },
+    {
+      "Name": "cyberlence-public-bucket-2",
+      "CreationDate": "2026-01-05T06:27:20+00:00",
+      "PublicAccessBlockConfiguration": {
+        "BlockPublicAcls": false,
+        "IgnorePublicAcls": false,
+        "BlockPublicPolicy": false,
+        "RestrictPublicBuckets": false
+      },
+      "Status": "OFF"
+    }
+  ]
+}
